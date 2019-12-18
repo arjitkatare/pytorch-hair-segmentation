@@ -1,1 +1,1 @@
-python3 main.py --networks pspnet_resnet101 --dataset figaro --data_dir ./data/Figaro1k --scheduler ReduceLROnPlateau --batch_size 4 --epochs 5 --lr 1e-3 --num_workers 2 --optimizer adam --img_size 256 --momentum 0.5 --ignite True
+python3 main.py --networks pspnet_resnet101 --dataset figaro --data_dir ./data/Figaro1k --scheduler ReduceLROnPlateau --batch_size 20 --epochs 300 --lr 1e-3 --num_workers 2 --optimizer adam --img_size 256 --momentum 0.5 --ignite True
